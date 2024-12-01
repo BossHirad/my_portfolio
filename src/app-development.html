@@ -1,0 +1,100 @@
+<!-- app-development.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="brand">Back to Services</a>
+        </div>
+    </header>
+    <section id="service-details">
+        <div class="container service-layout">
+            <div class="service-info">
+                <h1>App Development</h1>
+                <p>
+                    Developing mobile and web applications with a focus on user interface, functionality, and scalability.
+                </p>
+                <ul>
+                    <li><strong>Technologies:</strong> React Native, Flutter, Node.js</li>
+                    <li><strong>Duration:</strong> Varies based on project scope</li>
+                    <li><strong>Expertise:</strong> UI/UX Design, Frontend Development</li>
+                </ul>
+            </div>
+            <div class="service-image">
+                <img src="/images/service-1.png" alt="App Development">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Boss Hirad. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<style>
+    /* Reusable Layout Styles */
+    .service-layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .service-info {
+        flex: 1;
+        max-width: 600px;
+    }
+
+    .service-info h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .service-info p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .service-info ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .service-info ul li {
+        margin-bottom: 10px;
+    }
+
+    .service-image {
+        flex: 1;
+        max-width: 600px;
+    }
+
+    .service-image img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+        .service-layout {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .service-info {
+            max-width: 100%;
+        }
+
+        .service-image {
+            max-width: 100%;
+        }
+    }
+</style>
+</html>

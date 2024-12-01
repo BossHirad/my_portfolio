@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="brand">Back to Portfolio</a>
+        </div>
+    </header>
+    <section id="project-details">
+        <div class="container project-layout">
+            <div class="project-info">
+                <h1>Workout Dashboard</h1>
+                <p>
+                    A workout dashboard designed for tracking progress, managing routines, and providing real-time fitness analytics. Tailored for 
+                    fitness enthusiasts to improve their workouts effectively.
+                </p>
+                <ul>
+                    <li><strong>Technologies:</strong> Angular, SCSS</li>
+                    <li><strong>Duration:</strong> 2 months</li>
+                    <li><strong>Role:</strong> Frontend Developer</li>
+                </ul>
+            </div>
+            <div class="project-image">
+                <img src="/images/port_workout.jpg" alt="Workout Dashboard">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Boss Hirad. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<style>
+    /* Project Details Layout */
+    .project-layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .project-info {
+        flex: 1;
+        max-width: 600px;
+    }
+
+    .project-info h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .project-info p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .project-info ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .project-info ul li {
+        margin-bottom: 10px;
+    }
+
+    .project-image {
+        flex: 1;
+        max-width: 600px;
+    }
+
+    .project-image img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+        .project-layout {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .project-info {
+            max-width: 100%;
+        }
+
+        .project-image {
+            max-width: 100%;
+        }
+    }
+</style>
+</html>
